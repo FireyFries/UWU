@@ -8,8 +8,8 @@ module.exports.run = async (bot, message, args) => {
         const r = await message.reply("Hunt Time! :apple:");
         setTimeout(function() {
             r.delete();
-        }, 20000);
-    }, 10000)
+        }, 10000);
+    }, 12000)
 }
 
 module.exports.help = {
